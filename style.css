@@ -1,0 +1,130 @@
+h1{
+    color: rgba(54, 78, 104,1)
+}
+h2{
+    color: rgb(51,162,182)
+}
+h3{
+    color:rgb(163,70,73)
+}
+
+
+
+/* GENERAL IDENTIFIERS */
+
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    margin:0%;
+    width: 1200px;
+
+}
+
+
+/* HEADER */
+
+header{
+    display: flex;
+    height: 150px;
+    background-color: rgba(54, 78, 104,1);
+    width: 100%;
+}
+
+nav{
+    margin-left:15%;
+    margin-right: 2%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: rgb(51,162,182);
+}
+
+li{
+    margin:15px;
+}
+
+li a{
+    color: rgb(51,162,182);
+}
+
+li:hover{
+    color:rgb(163,70,73);
+}
+
+#menu{
+    background-color: rgba(54, 78, 104,1);
+    border: none;
+    color:rgb(51,162,182); 
+    font-size:15px;
+}
+
+figure{
+    margin:0%;
+}
+
+figure img{
+    height:150px;
+    box-shadow: 0px 0px 20px rgb(51,162,182);
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1% 5%;
+    justify-self: flex-end;
+}
+
+i{
+    height:20px;
+    margin: 0% 10px;
+    
+}
+
+.fa-solid{
+    color: rgb(51,162,182)
+}
+
+#social{
+    display: flex;
+    color: #FF766B;
+    align-items: center;
+}
+
+#faceb{
+    width:35px;
+    height: 34px;
+    display: flex;
+    margin: 10px;
+    align-items: flex-start;
+    
+}
+#fa-facebook{
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circle{
+    background-color:#FF766B;
+    border: 1px solid #FF766B;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.circle i{
+    margin:5px;
+    color: white;
+}

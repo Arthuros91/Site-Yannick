@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 236 136">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Barrio-Regular, 'Barrio Regular';
+        font-size: 30px;
+      }
+
+      .cls-3 {
+        fill: #ff7462;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#09283f" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="instruments">
+    <g>
+      <rect class="cls-3" x="11.47" y="15.53" width="199.47" height="91.17" transform="translate(-4.1 8.15) rotate(-4.12)"/>
+      <text class="cls-2" transform="translate(29.32 70.1)"><tspan class="cls-4" x="0" y="0">Z</tspan><tspan x="16.23" y="0">oom su</tspan><tspan class="cls-1" x="108.96" y="0">r</tspan><tspan x="117.18" y="0">...</tspan></text>
+    </g>
+  </g>
+</svg>
