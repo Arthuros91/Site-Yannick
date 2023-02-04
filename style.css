@@ -128,3 +128,17 @@ i{
     margin:5px;
     color: white;
 }
+
+
+
+/* INTRO */
+
+#intro{
+    display: flex;
+}
+
+#img_jazz{
+    height: 400px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
