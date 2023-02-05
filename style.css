@@ -8,37 +8,53 @@ h3{
     color:rgb(163,70,73)
 }
 
-
+@font-face {
+    font-family: 'Barrio';
+    src: url(./Fonts/Barrio-Regular.ttf);
+}
 
 /* GENERAL IDENTIFIERS */
 
 html{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    
+    align-items: center;
 }
 
 body{
     margin:0%;
-    width: 1200px;
-
+    width:80%;
+    background-color: rgba(54, 78, 104,1);
 }
+
+a{
+    text-decoration: none;
+}
+
 
 
 /* HEADER */
 
+
 header{
     display: flex;
-    height: 150px;
+    height: 200px;
     background-color: rgba(54, 78, 104,1);
     width: 100%;
+    font-family: 'Barrio';
 }
 
-nav{
-    margin-left:15%;
-    margin-right: 2%;
+
+    /* Nav Site */
+
+#nav_site{
+    font-size: 25px;
+    width:55%;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 
 ul{
@@ -53,6 +69,7 @@ li{
 
 li a{
     color: rgb(51,162,182);
+    
 }
 
 li:hover{
@@ -63,71 +80,87 @@ li:hover{
     background-color: rgba(54, 78, 104,1);
     border: none;
     color:rgb(51,162,182); 
-    font-size:15px;
+    font-size:25px;
+    font-family: 'Barrio';
 }
+
+
+    /* Header Figure */
 
 figure{
-    margin:0%;
+    margin:0% 5%;
 }
 
-figure img{
-    height:150px;
+#header_figure img{
+    height:100%;
     box-shadow: 0px 0px 20px rgb(51,162,182);
 }
-#links{
+
+
+    /* Nav Functions */
+
+#nav_functions{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width:30%;
     justify-content: space-around;
+    
+}
+
+#nav_functions div{
+    margin:0%;
+    align-self: center;
+    justify-content: center;
+    
+}
+    
+        /* Functions Button */
+
+#functions{
+    width:100%;
+    display: flex;
+    padding-top: 8%;
+}
+
+.functions_button{
+    background-color:rgba(54, 78, 104,1);
+    border: none;
+    margin: 0% 5%;
+}
+
+.connect img{
+    height:80px;
+}
+
+.search img{
+    height:40px;
+    margin-bottom: 10px;
+}
+
+        /* Social Button */
+
+#social{
+    display: flex;
+
     margin: 1% 5%;
     justify-self: flex-end;
 }
 
-i{
-    height:20px;
-    margin: 0% 10px;
-    
+.socialIcon{
+    height: 50px;
+    width:50px;
+    margin: 5%;
+    padding: 0%;
+    background-color:rgba(54, 78, 104,1);
+    border: none;
 }
 
-.fa-solid{
-    color: rgb(51,162,182)
+.socialIcon img{
+    height: 40px;
+    width: 40px;
 }
 
-#social{
-    display: flex;
-    color: #FF766B;
-    align-items: center;
-}
-
-#faceb{
-    width:35px;
-    height: 34px;
-    display: flex;
-    margin: 10px;
-    align-items: flex-start;
-    
-}
-#fa-facebook{
-    align-self: flex-start;
-    display: flex;
-    align-items: center;
-    
-}
-
-.circle{
-    background-color:#FF766B;
-    border: 1px solid #FF766B;
-    border-radius: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 7px;
-    box-shadow: 0px 0px 15px black;
-}
-
-.circle i{
-    margin:5px;
-    color: white;
-}
 
 
 
@@ -137,8 +170,33 @@ i{
     display: flex;
 }
 
+.intro_figure img{
+    height:600px;
+}
+
+#img_fg{
+    position: fixed;
+    left: 15px;
+    opacity: 1;
+}
+
+#jazzman{
+    width:70%;
+    height : 600px;
+}
+
 #img_jazz{
-    height: 400px;
+    height: 100%;
+    width: 100%;
     align-self: flex-end;
     justify-self: flex-end;
+}
+
+#lecteur_radio{
+    position:absolute;
+    bottom:10%;
+    left:38%;
+    height:20%;
+    width: 62%;
+
 }
