@@ -1,9 +1,15 @@
 h1{
-    color: rgba(54, 78, 104,1)
+    color: #FF7462;
+    font-family: 'Barrio';
+    font-size: 45px;
 }
+
 h2{
-    color: rgb(51,162,182)
+    color: white;
+    font-family: 'Barrio';
+    font-size: 27px;
 }
+
 h3{
     color:rgb(163,70,73)
 }
@@ -37,17 +43,20 @@ h3{
 /* GENERAL IDENTIFIERS */
 
 html{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 body{
     margin:0%;
-    width:80%;
+    max-width: 80%;
+    width: 100%;
     background-color: rgba(54, 78, 104,1);
+    border: 1px solid red;
+
 }
 
 a{
@@ -72,7 +81,7 @@ header{
 
 #nav_site{
     font-size: 25px;
-    width:55%;
+
     display: flex;
     align-content: flex-end;
     justify-content: flex-end;
@@ -93,16 +102,24 @@ li a{
     
 }
 
-li:hover{
-    color:rgb(163,70,73);
-}
-
 #menu{
     background-color: rgba(54, 78, 104,1);
     border: none;
     color:rgb(51,162,182); 
     font-size:25px;
     font-family: 'Barrio';
+}
+
+li:hover{
+    color:rgb(163,70,73);
+}
+
+li a:hover{
+    color:rgb(163,70,73);  
+}
+
+#menu:hover{
+    color:rgb(163,70,73); 
 }
 
 
@@ -124,7 +141,7 @@ figure{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width:30%;
+
     justify-content: space-around;
     
 }
@@ -188,6 +205,12 @@ figure{
 
 #intro{
     display: flex;
+    height:600px;
+}
+
+.intro_figure{
+    margin: 0%;
+    width:35%;
 }
 
 .intro_figure img{
@@ -195,37 +218,66 @@ figure{
 }
 
 #img_back{
-    position: absolute;
+    position: relative;
     z-index: 1;
-    left:9%;
+    
 
 }
 
 #img_fg{
     position: absolute;
-    left: 11%;
+    top:100px;
+    left:12%;
     z-index: 2;
-    bottom: 15%;
-    
 }
 
 #jazzman{
-    width:100%;
+    width:65%;
     height : 570px;
-    position: absolute;
-    left:35%;
+
 }
 
 #img_jazz{
     height: 100%;
-    width: 55%;
+    width: 100%;
 }
 
 #lecteur_radio{
     position:absolute;
-    bottom:5%;
-    left:34%;
-    height:20%;
-    width: 56%;
+    top:550px;
+    right:10%;
+    height:200px;
+    width: 60%;
 
+}
+
+
+/* ACTU */
+#actu{
+    width:100%;
+}
+
+#actu_banner{
+    display: flex;
+}
+#actu_banner_logos{
+    
+}
+#actu_logo{
+    width:300px;
+}
+
+#actu_logo_guitare{
+    position: relative;
+    width:250px;
+    right:100px;
+
+    z-index: -1;
+}
+#actu_banner h1{
+    position: relative;
+    right:50px;
+}
+#actu_banner h2{
+    margin:0% 2%;  
 }
