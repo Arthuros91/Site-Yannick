@@ -30,7 +30,7 @@ Color:
 bleu ciel : rgb(34,235,255)
 bleu clair : rgb(74,105,138)
 bleu foncé : rgba(54, 78, 104,1);
-bleu foncé + : 25364A
+bleu foncé + : #25364A
 
 orange clair : #FF7462
 orange foncé : rgb(163,70,73)
@@ -509,14 +509,67 @@ figure{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    width: 240px;
-    margin:0px 20px;
+    width: 290px;
+    margin:0px;
     background-color: rgb(74,105,138);
     scrollbar-width: medium;
     scrollbar-color:  rgb(163,70,73);
 }
 
 .scroller img{
-    height:120px;
+    height:170px;
+    width:170px;
     margin:25px 45px;
+}
+
+
+/* TUTO SECTION */
+
+    /* Tuto Header */
+
+#tuto_header_img{
+    margin:30px 25px;
+    border: none;
+} 
+
+#tuto_header_bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter_logo{
+    font-family: 'Roboto-light';
+    font-size: 30px;
+}
+
+#bar_input{
+    width:230px;
+    display: flex;
+    flex-direction: row;
+}
+
+#search_bar{
+    height: 50px;
+    margin:0px;
+    padding: 0px;
+    border: none;
+    background-color: #D1E7FF;
+}
+
+#search_bar::placeholder{
+    color: #25364A;
+    
+}
+
+
+#bar_input img{
+    height: 50px;
+    background-image: white;
+    border: none;
+}
+
+    /* Tuto Content */
+
+#tuto_content{
+    margin:50px 0px;
 }
