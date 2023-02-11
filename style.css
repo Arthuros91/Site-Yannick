@@ -419,6 +419,7 @@ figure{
 .read_more_card h3{
     font-size: 25px;
     align-self: center;
+    color: rgb(163,70,73);
 }
 
 .read_more_card h4{
@@ -571,5 +572,58 @@ figure{
     /* Tuto Content */
 
 #tuto_content{
-    margin:50px 0px;
+    width:85%;
+    margin:50px 7.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tuto_content img{
+    width:100%;
+}
+
+#tuto_content .article_counter{
+    align-self: flex-end;
+}
+
+    /* Tuto Read More */
+
+.tuto h1{
+    font-size: 25px;
+}
+
+.tuto .read_more_card{
+    padding: 10px;
+    width:390px;
+}
+
+.tuto h4{
+    font-size: 20px;
+    font-family: 'Roboto-light';
+    margin: 0px 0px 20px 0px;
+}
+
+.tuto h3{
+    font-size: 20px;
+    align-self: baseline;
+    padding: 0px;
+}
+
+.tuto h3 span{
+    color: #FF7462;
+}
+
+.tuto .card_box{
+    justify-content: baseline;
+    width: 100%;
+}
+
+.tuto .card_box img{
+    height: 100%;
+    margin-right: 15px;
+}
+.tuto_card_box_text p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto-light';
 }
