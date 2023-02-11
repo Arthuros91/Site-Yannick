@@ -738,7 +738,7 @@ figure{
     align-items: flex-end;
     justify-content: flex-end;
     width: 48%;
-    height:45%;
+    height:46%;
     background-size: cover;
     border-top:10px solid #FF7462;  
     
@@ -764,4 +764,31 @@ figure{
     display: flex;
     align-content: flex-end;
     justify-content: flex-end;
+}
+
+.down{
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+#footer_main{
+    height:400px;
+    background-color: #25364A;
+}
+
+#footer_logo p{
+    color:rgb(34,235,255)
+}
+
+#darkBlue{
+    color: rgba(54, 78, 104,1);
+}
+
+#white{
+    color:white;
+}
+
+#townlogo{
+    
 }
