@@ -694,3 +694,54 @@ figure{
     display: flex;
     justify-content:flex-end;
 }
+
+
+/* ZOOM SECTION */
+
+#zoom_section{
+    padding:20px;
+}
+
+#zoom_header{
+    display: flex;
+}
+
+
+    /* Zoom Content */
+
+#zoom_content{
+    display: flex;
+    
+    width: 100%;
+    height:500px;
+}
+
+#zoom_box_1{
+    background-image:url("./Images/Links/saxo.jpg");
+    width: 45%;
+    background-size:cover;
+}
+
+#zoom_box_2{
+    width: 45%;
+}
+
+.zoom_box{
+
+}
+
+.mini_un{
+    background-image: url("./Images/Links/steve-vai-jem-jr-wh-artist-600-3-84771.jpg");
+}
+
+.mini_deux{
+    background-image: url("./Images/Links/guitare.png");
+}
+
+.mini_trois{
+    background-image: url("./Images/Logos/3x/Guitare.png");
+}
+
+.mini_quatre{
+    background-image: url("./Images/Links/guitare\ stratos\ clapton.jpg");
+}
