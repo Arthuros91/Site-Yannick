@@ -24,6 +24,9 @@ h4{
     font-family: 'Times New Roman', Times, serif;
 }
 
+button{
+    border: none;
+}
 /*
 Color:
 
@@ -375,7 +378,6 @@ figure{
 #sub_img_back{
     position: relative;
     height:490px;
-
     width:285px;
 }
 
@@ -458,7 +460,7 @@ figure{
     justify-content: flex-end;
 }
 
-.read_more p span{
+.article_counter span{
     color:#FF7462;
 }
 
@@ -626,4 +628,69 @@ figure{
     color: white;
     font-size: 25px;
     font-family: 'Roboto-light';
+}
+
+
+/* REMEMBER SECTION */
+
+#remember_header{
+    display: flex;
+    padding-left: 25px;
+}
+
+#remember_header p{
+    font-family: 'Roboto-bold';
+    font-size: 24px;
+    color: rgb(34,235,255);
+}
+
+#remember_header p a{
+    color: white;
+    text-decoration: underline;
+}
+
+    /* Remember Content */
+
+#remember_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin: 30px 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.mag_box{
+    width:14.5%;
+    max-height: 310px; 
+}
+
+.mag_box img{
+    width: 100%;
+    height: 270px;
+    margin: 0px;
+    position: relative;
+    top:4px;
+}
+
+.mag_box button{
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.dispo button{
+    background-color: #FF7462;
+    color: white;
+}
+
+.épuisé button{
+    background-color: rgb(34,235,255);
+    color: black;
+}
+
+#remember_section .article_counter{
+    display: flex;
+    justify-content:flex-end;
 }
