@@ -721,6 +721,17 @@ figure{
     width: 49%;
     background-size:cover;
     border-top:10px solid #FF7462; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#zoom_box_1 p{
+    color:white;
+    font-family: 'Roboto';
+    font-size:18px;
+    margin-right: 15px;
 }
 
 #zoom_box_2{
@@ -742,6 +753,16 @@ figure{
     background-size: cover;
     border-top:10px solid #FF7462;  
     
+}
+
+.zoom_box p{
+    color:white;
+    font-family: 'Roboto';
+    font-size:18px;
+}
+
+.zoom_box p,button{
+    margin:15px;
 }
 
 .mini_un{
@@ -773,8 +794,9 @@ figure{
 /* FOOTER */
 
 #footer_main{
-    height:400px;
+    height:300px;
     background-color: #25364A;
+    display: flex;
 }
 
 #footer_logo p{
@@ -790,5 +812,29 @@ figure{
 }
 
 #townlogo{
-    
+    height:300px;
+}
+
+#footer_main_nav a{
+    color: rgb(34,235,255);
+    font-family: 'Roboto';
+}
+
+#nav_list{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(54, 78, 104,1);
+    border-bottom: 1px solid rgba(54, 78, 104,1);
+    margin-left: 30px;
+}
+
+#footer_nav{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0px;
+}
+
+#footer_nav a{
+    color: white;
+    font-size: 18px;
 }
